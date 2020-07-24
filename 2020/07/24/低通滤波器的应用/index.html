@@ -5,19 +5,21 @@
   
 
   
-  <title>Hello World | Hexo</title>
+  <title>低通滤波器的应用 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="低通滤波器的应用1、一阶低通滤波器电路图2、一阶低通滤波器传递函数$$V_o&#x3D;\frac{\frac{1}{Cs}}{R+\frac{1}{Cs}}V_i$$ $$V_o&#x3D;\frac{1}{RCs+1}V_i$$ 传递函数为：$$H(s)&#x3D;\frac{1}{RCs+1}$$因为:$$s&#x3D;j\omega$$所以:$$H(j\omega)&#x3D;\frac{1}{RCj\omega+1}$$幅频特性：$$|">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://github.com/lig035169/lig035169.github.io/2020/07/24/hello-world/index.html">
+<meta property="og:title" content="低通滤波器的应用">
+<meta property="og:url" content="https://github.com/lig035169/lig035169.github.io/2020/07/24/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8%E7%9A%84%E5%BA%94%E7%94%A8/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="低通滤波器的应用1、一阶低通滤波器电路图2、一阶低通滤波器传递函数$$V_o&#x3D;\frac{\frac{1}{Cs}}{R+\frac{1}{Cs}}V_i$$ $$V_o&#x3D;\frac{1}{RCs+1}V_i$$ 传递函数为：$$H(s)&#x3D;\frac{1}{RCs+1}$$因为:$$s&#x3D;j\omega$$所以:$$H(j\omega)&#x3D;\frac{1}{RCj\omega+1}$$幅频特性：$$|">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-07-24T01:34:47.585Z">
-<meta property="article:modified_time" content="2020-07-24T01:34:47.585Z">
+<meta property="og:image" content="https://github.com/lig035169/figurebed/blob/master/img/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8.png?raw=true">
+<meta property="article:published_time" content="2020-07-24T13:26:00.000Z">
+<meta property="article:modified_time" content="2020-07-24T13:27:38.097Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/lig035169/figurebed/blob/master/img/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8.png?raw=true">
   
     <link rel="alternate" href="/lig035169.github.io/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -66,10 +68,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="w-低通滤波器的应用" class="article article-type-w" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/lig035169.github.io/2020/07/24/hello-world/" class="article-date">
-  <time datetime="2020-07-24T01:34:47.585Z" itemprop="datePublished">2020-07-24</time>
+    <a href="/lig035169.github.io/2020/07/24/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8%E7%9A%84%E5%BA%94%E7%94%A8/" class="article-date">
+  <time datetime="2020-07-24T13:26:00.000Z" itemprop="datePublished">2020-07-24</time>
 </a>
     
   </div>
@@ -80,7 +82,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      低通滤波器的应用
     </h1>
   
 
@@ -88,24 +90,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="低通滤波器的应用"><a href="#低通滤波器的应用" class="headerlink" title="低通滤波器的应用"></a>低通滤波器的应用</h2><h3 id="1、一阶低通滤波器电路图"><a href="#1、一阶低通滤波器电路图" class="headerlink" title="1、一阶低通滤波器电路图"></a>1、一阶低通滤波器电路图</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="https://github.com/lig035169/figurebed/blob/master/img/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8.png?raw=true" alt="低通滤波器"></h3><h3 id="2、一阶低通滤波器传递函数"><a href="#2、一阶低通滤波器传递函数" class="headerlink" title="2、一阶低通滤波器传递函数"></a>2、一阶低通滤波器传递函数</h3><p>$$<br>V_o=\frac{\frac{1}{Cs}}{R+\frac{1}{Cs}}V_i<br>$$</p>
+<p>$$<br>V_o=\frac{1}{RCs+1}V_i<br>$$</p>
+<p>传递函数为：<br>$$<br>H(s)=\frac{1}{RCs+1}<br>$$<br>因为:<br>$$<br>s=j\omega<br>$$<br>所以:<br>$$<br>H(j\omega)=\frac{1}{RCj\omega+1}<br>$$<br>幅频特性：<br>$$<br>|H(j\omega)|=\frac{\sqrt{(分子实部)^2+(分子实部)^2}}{\sqrt{(分母实部)^2+(分母实部)^2}}<br>$$<br>相频特性：<br>$$<br>\phi(\omega)=arctan\frac{分子虚部}{分子实部}-arctan\frac{分母虚部}{分母实部}<br>$$<br>低通滤波器的幅频特性为：<br>$$<br>|(H(j\omega))|=\frac{1}{\sqrt{(RC\omega)^2+1}}<br>$$<br>低通滤波器的相频特性为：<br>$$<br>\phi(\omega)=arctan(\frac{0}{1}-arctan(\frac{RC\omega}{1}))=-arctan(RC\omega)<br>$$</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github.com/lig035169/lig035169.github.io/2020/07/24/hello-world/" data-id="ckczkxhon0000e8f10nsj47u6" class="article-share-link">Share</a>
+      <a data-url="https://github.com/lig035169/lig035169.github.io/2020/07/24/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8%E7%9A%84%E5%BA%94%E7%94%A8/" data-id="ckd09fidg0000ncf16f355byd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,15 +106,11 @@
     
 <nav id="article-nav">
   
-    <a href="/lig035169.github.io/2020/07/24/%E4%BD%8E%E9%80%9A%E6%BB%A4%E6%B3%A2%E5%99%A8%E7%9A%84%E5%BA%94%E7%94%A8/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          低通滤波器的应用
-        
-      </div>
-    </a>
   
+    <a href="/lig035169.github.io/2020/07/24/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
 </nav>
 
